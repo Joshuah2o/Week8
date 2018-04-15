@@ -19,7 +19,7 @@ Vulnerability #3: SQL Injection  <br>
 In the blue site's salesperson page, injecting an SQL statement at the end of the salesperson url will succeed.
 Inserting the statement ' OR SLEEP(5)=0--' will cause the site to wait 5 seconds before reloading the first salesperson, Daron Burke.
 <br>
-<img src='SQL Injection.gif' title='SQL Injection' width='' alt='' />
+<img src='Vulnerability #3 - SQL Injection.gif' title='SQL Injection' width='' alt='' />
 
 Vulnerability #6: Session Hijacking/Fixation <br>
 In the red site, log in as a registered user (pperson). Now take the url of the red site, paste it in a new browser,
