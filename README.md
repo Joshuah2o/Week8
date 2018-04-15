@@ -35,7 +35,7 @@ For this, I inserted the text ' OR SLEEP(5)=0--' . Doing this, it will make the 
 <img src='SQL.gif' title='SQL Injection' width='' alt='GIF Walkthrough' />
 
 Vulnerability #6: Session Hijacking/Fixation <br><br>
-While viewing the red site, log in with the pperson credentials given. Now take the url of the red site, paste it in a new web browser (such as Microsoft Edge), then change 'red' to 'blue' un the url, and you will now have user priveleges on the blue site without actually having to log-in. Ta-Da!
+While viewing the red site, log in with the pperson credentials given. Now take the url of the red site, paste it in a new tab, then change 'red' to 'blue' un the url, and you will now have user priveleges on the blue site without actually having to log-in. Ta-Da!
 <br>
 <img src='Session Hijacking.gif' title='Session Hijacking' width='' alt='GIF Walkthrough' />
 
