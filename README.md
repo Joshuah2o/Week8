@@ -15,6 +15,7 @@ The six possible exploits are:
 Each version of the site has been given two of the six vulnerabilities. (In other words, all six of the exploits should be assignable to one of the sites.)
 
 ## Blue
+
 Vulnerability #3: SQL Injection  <br>
 While on the blue site's salesperson page, if you inject an SQL statement at the end of the salesperson url it will succeed.
 For this, I inserted the text ' OR SLEEP(5)=0--' . Doing this, it will make the site to wait about 5 seconds before reloading the first salesperson, Daron Burke.
@@ -38,17 +39,16 @@ User comment: <br> <img src='XSS user comment.gif' title=' XSS' width='' alt='GI
 <br>
 Logged in: <br> <img src='XSS logged in.gif' title=' XSS' width='' alt='GIF Walkthrough' />
 
-
 ## Red
 
 Vulnerability #2: Insecure Direct Object Reference <br>
-The salespeople can be accessed by specifying an id int in the url. On the red site, changing the salesperson id to
-10 and 11 reveal 2 extra people that can't be accessed through IDOR on the blue and green site. <br>
+The salespeople can be accessed by specifying an id int in the url. When on the red site, if you change the salesperson id to
+10 and 11 it revealed to me two extra people that can't be accessed through IDOR on the blue and green site. <br>
 <img src='IDOR.gif' title=' IDOR' width='' alt='GIF Walkthrough' />
 
 Vulnerability #5: Cross-Site Request Forgery <br>
-In the red site, you can create a post-method form that sends data to the ip address specified. In my case,
-I created a new salesperson called 'Keller Han'. <br>
+In the red site, you can create a post-method form that sends data to the ip address specified. Inthis particular instance,
+I added a new salesman to the list. <br>
 <img src='CSRF.gif' title=' CSRF' width='' alt='GIF Walkthrough' />
 
 
