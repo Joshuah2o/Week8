@@ -33,13 +33,14 @@ Vulnerability #1: Username Enumeration <br>
 In the green site's log-in page, logging in as an invalid user will show an error message 'Log in was unsuccessful.'
 However, logging in as a valid user with an incorrect password will show the same error message, except in bold. This allows
 intruders to know whether a username exists in the database or not. <br>
-<img src='User enumerication.gif' title=' Username Enumeration' width='' alt='GIF Walkthrough' />
+<img src='User Enumeration.gif' title=' Username Enumeration' width='' alt='GIF Walkthrough' />
 
 Vulnerability #4: Cross-Site Scripting (XSS) <br>
 In the green site's comment section, anyone can insert a stored XSS attack in the form of an alert by submitting a comment,
 and a user of the site can see that alert message when they click on the feedback button.<br>
-User comment: <img src='XSS user comment.gif' title=' XSS' width='' alt='GIF Walkthrough' /> <br>
-Logged in: <img src='XSS logged in.gif' title=' XSS' width='' alt='GIF Walkthrough' />
+User comment: <br> <img src='XSS user comment.gif' title=' XSS' width='' alt='GIF Walkthrough' /> 
+<br>
+Logged in: <br> <img src='XSS logged in.gif' title=' XSS' width='' alt='GIF Walkthrough' />
 
 
 ## Red
