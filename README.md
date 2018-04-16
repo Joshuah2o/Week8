@@ -18,13 +18,11 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 Vulnerability #1: Username Enumeration <br><br>
 Go to the green site's log-in page. If you proceed to try and log in as an invalid user, you will be prompted with an error message stating 'Log in was unsuccessful'. Additionally, logging in with a valid user but an incorrect password, you will see the same error message, this time in bold. This exploit allows unauthorized infiltrators to know whether a username exists in the database or not. <br>
-<img src='Username Enumeration.gif' title=' Username Enumeration' width='' alt='GIF Walkthrough' />
+<img src='1Username Enumeration.gif' title=' Username Enumeration' width='' alt='GIF Walkthrough' />
 
 Vulnerability #4: Cross-Site Scripting (XSS) <br><br>
 This one primarily focuses on the  green site's comment section. In here, you can insert a XSS attack diguised as an alert by submitting a comment, and consequently a user of the site notices the alert message when they click on the feedback button.<br>
-User comment: <br> <img src='XSS user comment.gif' title=' XSS' width='' alt='GIF Walkthrough' /> 
-<br><br>
-Logged in: <br> <img src='XSS logged in.gif' title=' XSS' width='' alt='GIF Walkthrough' />
+<br> <img src='4XSS user comment.gif' title=' XSS' width='' alt='GIF Walkthrough' /> 
 
 ## Blue
 
