@@ -22,7 +22,7 @@ Go to the green site's log-in page. If you proceed to try and log in as an inval
 
 Vulnerability #4: Cross-Site Scripting (XSS) <br><br>
 This one primarily focuses on the  green site's comment section. In here, you can insert a XSS attack diguised as an alert by submitting a comment, and consequently a user of the site notices the alert message when they click on the feedback button.<br>
-<br> <img src='4XSS user comment.gif' title=' XSS' width='' alt='GIF Walkthrough' /> 
+<br> <img src='XSS.gif' title=' XSS' width='' alt='GIF Walkthrough' /> 
 
 ## Blue
 
